@@ -34,10 +34,18 @@ h3 {
 }
 
 body {
+  background: #ECECEA;
   font-family: sans-serif;
 }
 
 .ubermicro {
+  display: block;
+  width: 500px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.snake {
   display: block;
   width: 500px;
   height: 500px;

@@ -1,0 +1,49 @@
+/* reset */
+
+body, html, img, button,
+input, h1, h2, h3, span,
+small, strong, div, figure,
+section {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  text-decoration: none;
+
+  font: inherit;
+  box-sizing: inherit;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.ubermicro {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+}

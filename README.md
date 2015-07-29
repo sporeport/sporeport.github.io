@@ -1,8 +1,7 @@
-# Sam Hone-Studer
+##Welcome
 
-Welcome this is the repo for my personal site.
+This is the repo for my personal site.
 
-To see the site please click here: [Link]
+To see the site please [click here][link]:
 
-[Link][link]
-[link] www.samhonestuder.com
+[link]: www.samhonestuder.com

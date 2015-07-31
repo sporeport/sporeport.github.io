@@ -2741,11 +2741,31 @@
 	float: left;
 }
 
+.outlinks_nav:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.outlinks_nav {
+	position: relative;
+	left: 3px;
+	width: 96px;
+	margin: 0 auto;
+}
+
+.code_icon_container {
+	position: relative;
+	left: -65px;
+	width: 1000px;
+}
+
 .code_icon_container:after {
 	content: "";
 	clear: both;
 	display: block;
 }
+
 
 .mid_height {
 	height: 550px;
@@ -2763,13 +2783,28 @@ a.resume {
 
 a.resume:hover {
 	border: 1px solid #fff;
-	background: #f00;
+	background: #980054;
 }
 
 a.icon_small {
 	font-size: 30px;
 	color: #000;
 	border: 0;
+}
+
+a.icon_medium {
+	margin-right: 5px;
+	font-size: 50px;
+	border: 0;
+}
+
+a.icon_medium > i {
+	transition: color .25s linear;
+}
+
+#footer a.email:hover {
+	border: 0;
+	color: skyblue;
 }
 
 .right {
@@ -2780,8 +2815,9 @@ a.icon_small {
 	float: left;
 }
 
-a.icon_small:hover {
-	color: #f00;
+a.icon_small:hover,
+a.icon_medium > i:hover {
+	color: #980054;
 }
 
 
@@ -3057,6 +3093,7 @@ a.icon_small:hover {
 				}
 
 				#header .logo {
+					clear: left;
 					font-size: 1.5em;
 				}
 
@@ -3186,5 +3223,5 @@ a.icon_small:hover {
 	}
 
 	div#main {
-		height: 2000px;
+		height: 1800px;
 	}

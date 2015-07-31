@@ -2741,6 +2741,15 @@
 	float: left;
 }
 
+.content h3 > a {
+	border: 0;
+	transition: color .25s linear;
+}
+
+.content h3 > a:hover {
+	color: #980054;
+}
+
 .outlinks_nav:after {
 	content: "";
 	clear: both;
